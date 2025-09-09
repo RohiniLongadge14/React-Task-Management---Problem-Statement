@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  // define state for single student
+  // define state for single task
   const [task, setTask] = useState({
     taskAssigneeName: "",
     taskName: "",
@@ -10,7 +10,7 @@ function App() {
     taskStatus: "None"
   });
 
-  // state for student list
+  // state for task list
   const [taskList, setTaskList] = useState([]);
 
   const inputHandler = (e) => {
